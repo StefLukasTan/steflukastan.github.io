@@ -1,70 +1,7 @@
-.border {
-	padding: -10px;
-	margin: -8px
-}
-
-header {
-	text-align-last: center;
-	background-color: #20639B;
-	padding: 15px;
-	margin: 0px;
-}
-
-header h3 {
-	size: 17px;
-	color: #EBF2FA;
-}
-
-header h1 {
-	font-size: 40px;
-	color: #EBF2FA;
-}
-
-header h5 {
-	font-family: sans-serif;
-	color: #EBF2FA;
-}
-
-.header {
-	margin-bottom: -25px;
-}
-
-.name {
-	margin-bottom: -20px;
-}
-
-.images {
-	background-color: #00203FFF; 
-	margin-bottom: -20px;
+h1 {
 	text-align: center;
 }
 
-.rahel-image {
-	border-radius: 50%;
-	padding: 80px;
-	max-width: 250px;
-	max-height: 250px;
-}
-
-.contents {
-	background-color: #00203FFF;
+p {
 	text-align: center;
-	margin-top: -80px;
-	margin-bottom: -20px;
-	padding: 25px;
-}
-
-.contents p {
-	color: #A0CECB;
-}
-
-.closement {
-	padding: 20px;
-	margin-top: -20px;
-	background-color: #20639B;
-}
-
-.closement h5 {
-	text-align-last: center;
-	color: #fff;
 }
