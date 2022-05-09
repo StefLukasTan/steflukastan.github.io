@@ -3,7 +3,9 @@ p {
 }
 
 .heart {
-	text-align: center;
-	size: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
