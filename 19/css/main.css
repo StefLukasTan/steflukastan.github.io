@@ -1,0 +1,50 @@
+@media screen and (max-width: 1028px){
+        body {
+                background-color: #BBDEFA;
+        }
+
+        .intro {
+                padding: 2vh 3vh;
+                background-image: url("/img/bg.jpg");
+                background-size: cover;
+        }
+
+        .intro > img {
+                max-width: 80%;
+                height: auto;
+        }
+
+        .intro > h1 {
+                font-size: 3vh;
+                color: black;
+                background-color: white;
+                border-radius: 50px;
+        }
+
+        .pesan {
+                padding: 3vh 0vh;
+                color: black
+                background-color: #BBDEFA;
+        }
+
+        .pesan > p {
+                font-size: 2vh;
+                padding: 1vh 0vh;
+        }
+
+        .widgetables-poster > img {
+                max-width: 100%;
+                height: auto;
+        }
+
+        .song-paper {
+                max-width: 100%;
+                height: auto;
+        }
+}
+
+@media screen and (min-width: 1028px){
+        body {
+                display: none;
+        }
+          }
