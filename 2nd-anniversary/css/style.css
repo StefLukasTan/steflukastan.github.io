@@ -1,16 +1,8 @@
-@media screen and (max-width: 1028px){
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    audio {
-        display: none;
-    }
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-@media screen and (min-width: 1028px){
-    body {
-        display: none;
-    }
+audio {
+    display: none;
 }
