@@ -1,48 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teka-Teki Web Wiwi Hwa | Welcome!</title>
-    <meta name="description" content="Web Teka-teki khusus Hwa dari Wiwi!">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-     <link rel="stylesheet" href="">
-</head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-    <div class="introduction container">
-        <h1 class="text-center">Selamat Datang di<br>Teka-Teki Web Wiwi Hwa!</h1>
-        <p>Di dalam website ini, Hwa harus menemukan berbagai macam kunci jawaban dari soal yang diberikan atau kunci jawaban yang diselipkan pada beberapa bagian halaman web dalam bermacam-macam rupa. Untuk teka-teki ini, akan dibagi menjadi beberapa level dengan cara penemuan kunci jawaban yang berbeda-beda. Untuk sementara ini, level yang tersedia tidak terlalu banyak sehingga akan dibuat cukup susah dan menantang supaya lebih seru untuk dikerjakan.</p>
-        <br>
-        <p>Sebagai percobaan saja untuk persiapan mengerjakan level 1, silahkan mencoba mengisi kolom di bawah ini dengan tanggal jadian Wiwi & Hwa</p>
-        <br>
-    </div>
-    <div class="example-question container text-center">
-        <p>Tanggal Jadian Wiwi & Hwa (Format: HH-BB-TTTT)</p>
-        <input id="jawaban">
-        <button type="button" onclick="crossCheck()">Kirim</button>
-        <p id="result"></p>
-        <a href="/TTWH/level-1/" id="next-level" style="display: none;">Mulai Level 1</a>
-
-        <script>
-            function crossCheck() {
-              let x = document.getElementById("jawaban").value;
-              let nextLevel = document.getElementById("next-level");
-              let text;
-              if (x == "05-05-2022") {
-                text = "Jawaban benar!";
-                nextLevel.style.display = "initial";
-              } else {
-                text = "Jawaban salah.";
-              }
-              document.getElementById("result").innerHTML = text;
-            }
-        </script>
-    </div>
-</body>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday Hwa❤️</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="div1" id="div-1">
+            <img class="photo" src="image.jpg">
+        </div>
+        <div class="div2">
+          <p class="date"><b>04 November 2022🎂 (18 Tahun)</b></p>
+            <audio src="birthday2.mp3" controls autoplay loop></audio>
+            <p>
+              Semogaa panjang umur, sehat terus, kerjaanmu lancar terus, bisa jadi pribadi sg lebih baik lagi, tambah cantik mbek manis e juga wkwk (Tapi sekarang pun udah cantik mbek manis pol seh wkwk), tambah sayang sama keluarga, sama aku jugaa yaa wkwkwk.
+              <br><br><br>
+              LOVE YOU SO MUCHH🫶
+            </p>
+        </div>
+        <div class="qr">
+          <img class="qrcode" src="qrcode.jpg" alt="">
+        </div>
+        <div class="div3">
+          <img class="dino" src="dino_mini.jpg" alt="">
+        </div>
+    </body>
 </html>
