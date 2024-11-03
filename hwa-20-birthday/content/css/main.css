@@ -1,0 +1,24 @@
+@media screen and (max-width: 1028px) {
+    #playButton {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1028px) {
+    body {
+        display: none;
+    }
+}

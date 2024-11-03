@@ -1,0 +1,42 @@
+@media screen and (max-width: 1028px) {
+    body {
+        /* background-color: green; */
+        /* background-size: 10%; */
+    }
+
+    .monster-hunting {
+        /* background-color: green; */
+        position: relative;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .health-bar {
+        position: absolute;
+        top: 13.5%;
+        left: 8%;
+        padding: 1vh 0vh 1vh 0vh;
+        padding-left: 50vh;
+        z-index: -1;
+        background-color: green;
+    }
+
+    .attack-btn {
+        position: absolute;
+        top: 85%;
+        left: 21.5vh;
+        padding: 1vh 2vh;
+        text-align: center;
+        background-color: red;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1028px) {
+    body {
+        display: none;
+    }
+}
